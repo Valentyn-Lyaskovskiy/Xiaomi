@@ -1,28 +1,28 @@
 *,
 *::after,
-*::before{
+*::before {
   box-sizing: border-box;
 }
 
-ul{
+ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
-.container{
+.container {
   max-width: 1220px;
   margin: 0 auto;
   padding: 0 10px;
 }
 
-body{
-  font-family: 'Inter';
+body {
+  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -53,10 +53,10 @@ body{
   color: #fff;
 }
 
-.menu__link{
+.menu__link {
   text-transform: uppercase;
   padding: 42px 20px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
 /* Main  */
@@ -70,7 +70,7 @@ body{
   justify-content: space-between;
 }
 
-.main__title:not(:last-child){
+.main__title:not(:last-child) {
   margin: 75px 0 5px;
 }
 
@@ -80,14 +80,14 @@ body{
   line-height: 120%; /* 77px/64 */
 }
 
-.main__subtitle:not(:last-child){
+.main__subtitle:not(:last-child) {
   margin: 0 0 60px;
 }
 
 .main__subtitle {
   font-size: 32px;
   line-height: 121%; /* 39px/32 */
-  color: #6F6F6F;
+  color: #6f6f6f;
   font-weight: 400;
 }
 
@@ -99,7 +99,7 @@ body{
   margin: 0 0 20px;
 }
 
-.main__text_second:not(:last-child){
+.main__text_second:not(:last-child) {
   margin: 0 0 80px;
 }
 
@@ -107,10 +107,15 @@ body{
   font-size: 20px;
   letter-spacing: 1.1em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #131313;
   padding: 28px 81px;
   display: inline-block;
+  transition: all 0.4s ease;
+}
+
+.main__link:hover {
+  background-color: #ff4040;
 }
 
 .main__right {
