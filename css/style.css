@@ -131,14 +131,17 @@ body {
 .mr__list {
   display: flex;
   justify-content: space-around;
-  margin-top: 25px;
+  margin-top: 5px;
 }
 
 .mr__item {
-  font-weight: 700;
+  display: flex;
   text-transform: uppercase;
-  flex-basis: 160px;
+  font-weight: 700;
   text-align: center;
+  min-width: 160px;
+    flex-direction: column;
+    align-items: center;
 }
 
 .mr__text {
@@ -146,6 +149,7 @@ body {
   line-height: 125%; /* 15/12 */
   font-weight: 400;
   text-transform: lowercase;
+  margin: auto 0;
 }
 
 .slick-dots {
