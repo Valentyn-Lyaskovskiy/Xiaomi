@@ -176,3 +176,31 @@ body {
 .slick-dots button:hover {
   background-color: #ff4040;
 }
+
+/*   Info  */
+
+.info {
+  padding-top: 150px;
+}
+
+.info__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.info__box {}
+
+.info__title:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.info__title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 118.75%;
+  /* 19px/16 */
+  text-transform: uppercase;
+}
+
+.info__text {}
