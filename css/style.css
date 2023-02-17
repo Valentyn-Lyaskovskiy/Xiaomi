@@ -289,3 +289,10 @@ body {
 }
 
 /*   Order  */
+.order__text-first:not(:last-child) {
+  margin-bottom: 56px;
+}
+
+.order__text-first {
+  max-width: 298px;
+}
