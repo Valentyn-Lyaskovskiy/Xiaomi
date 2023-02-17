@@ -10,6 +10,9 @@ ul {
   margin: 0;
 }
 
+p {
+  margin: 0;
+}
 a {
   text-decoration: none;
   color: inherit;
@@ -223,19 +226,31 @@ body {
 
 /*   About  */
 
+.about {
+  padding-bottom: 150px;
+}
 .about__wrapper {
   display: flex;
   gap: 60px;
 }
 
+.about__wrapper img {
+  align-self: center;
+}
 .about__box {
   flex-basis: 570px;
 }
 
+.about__list+.about__list {
+  padding-top: 30px;
+}
 .about__title {
   margin: 0 0 40px;
 }
 
+.about__item-title:not(:last-child) {
+  margin-bottom: 13px;
+}
 .about__item-title {
   font-weight: 700;
   text-transform: uppercase;
@@ -246,5 +261,14 @@ body {
 
 .about__line {
   display: flex;
-  justify-content: space-between;
+  padding-top: 5px;
+  }
+  
+  .about__name {
+    flex-basis: 285px;
+    padding-right: 10px;
+  }
+  
+  .about__desc {
+    flex-basis: 285px
 }
