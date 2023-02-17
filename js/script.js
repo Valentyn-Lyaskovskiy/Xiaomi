@@ -1,5 +1,5 @@
 $(function () {
-  $(".mr__slider").slick({
+  $(".mr__slider, .slider").slick({
     arrows: false,
     dots: true,
     fade: true,
@@ -7,3 +7,6 @@ $(function () {
     autoplaySpeed: 2000,
   });
 });
+
+
+

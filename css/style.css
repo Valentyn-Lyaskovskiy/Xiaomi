@@ -229,6 +229,7 @@ body {
 .about {
   padding-bottom: 150px;
 }
+
 .about__wrapper {
   display: flex;
   gap: 60px;
@@ -237,6 +238,7 @@ body {
 .about__wrapper img {
   align-self: center;
 }
+
 .about__box {
   flex-basis: 570px;
 }
@@ -244,13 +246,15 @@ body {
 .about__list+.about__list {
   padding-top: 30px;
 }
-.about__title {
+.about__title,
+.oredr__title {
   margin: 0 0 40px;
 }
 
 .about__item-title:not(:last-child) {
   margin-bottom: 13px;
 }
+
 .about__item-title {
   font-weight: 700;
   text-transform: uppercase;
@@ -272,3 +276,16 @@ body {
   .about__desc {
     flex-basis: 285px
 }
+/*   Slider  */
+
+.slider {
+  padding-left: 49px;
+  margin-bottom: 50px;
+}
+
+.slider .slick-dots {
+  top: 0;
+  left: 0;
+}
+
+/*   Order  */
