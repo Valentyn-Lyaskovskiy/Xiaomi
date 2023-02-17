@@ -201,7 +201,7 @@ body {
   margin: 0 0 12px;
 }
 
-.info__title {
+.info-title {
   font-weight: 700;
   font-size: 16px;
   line-height: 118.75%;
@@ -219,4 +219,32 @@ body {
 
 .info__text:last-child {
   margin-bottom: 0;
+}
+
+/*   About  */
+
+.about__wrapper {
+  display: flex;
+  gap: 60px;
+}
+
+.about__box {
+  flex-basis: 570px;
+}
+
+.about__title {
+  margin: 0 0 40px;
+}
+
+.about__item-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #131313;
+  padding: 2px 0 3px;
+}
+
+.about__line {
+  display: flex;
+  justify-content: space-between;
 }
