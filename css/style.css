@@ -28,6 +28,10 @@ button {
   padding: 0 10px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Inter";
   font-style: normal;
@@ -121,6 +125,7 @@ body {
   transition: all 0.4s ease;
   width: 420px;
   text-align: center;
+  cursor: pointer;
 }
 
 .main-link:hover {
@@ -189,7 +194,7 @@ body {
 /*   Info  */
 
 .info {
-  padding: 150px 0 150px;
+  padding: 150px 0 50px;
 }
 
 .info__wrapper img {
@@ -233,6 +238,7 @@ body {
 /*   About  */
 
 .about {
+  padding-top: 100px;
   padding-bottom: 150px;
 }
 
@@ -366,6 +372,30 @@ body {
 }
 
 .form__bike-price {
+  font-size: 32px;
+  line-height: 121.875%; /* 39px/32 */
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  width: 220px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  border: 1px solid #ff4040;
+  border-radius: 50%;
+  transform: translate(-50%);
+}
+
+.form__bike-price::after {
+  content: "";
+  top: 12px;
+  border: 1px solid #ff4040;
+  height: 100px;
+  width: 220px;
+  position: absolute;
+  border-radius: 50%;
 }
 
 .form__radio-style {
@@ -386,4 +416,49 @@ body {
 
 .form__radio-style-red {
   background: #ff4040;
+}
+
+/* Footer */
+
+.footer {
+  background: #131313;
+}
+
+.footer__wrapper {
+  min-height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer__policy-link {
+  text-decoration: underline;
+}
+
+.footer__policy-link,
+.footer__span {
+  font-size: 12px;
+  line-height: 125%; /* 15px/12 */
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.footer__social-inst {
+  margin-right: 28px;
+}
+
+.footer__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+}
+
+.footer__link-email,
+.footer__link-phone {
+  display: flex;
+  align-items: center;
+}
+
+.footer__contacts-img {
+  margin-right: 10px;
 }

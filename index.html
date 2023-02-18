@@ -24,13 +24,15 @@
           <nav class="header__menu menu">
             <ul class="menu__list">
               <li class="menu__item">
-                <a class="menu__link" href="#">description</a>
+                <a class="menu__link" href="#desc">description</a>
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#">characteristics</a>
+                <a class="menu__link" href="#characteristics"
+                  >characteristics</a
+                >
               </li>
               <li class="menu__item">
-                <a class="menu__link" href="#"
+                <a class="menu__link" href="#order"
                   >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;price&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a
                 >
               </li>
@@ -60,7 +62,7 @@
                 7-speed transmission and an ergonomic seat make every ride that
                 much more enjoyable.
               </p>
-              <a class="main__link main-link" href="#">order</a>
+              <a class="main__link main-link" href="#order">order</a>
             </div>
             <div class="main__right mr">
               <div class="mr__slider">
@@ -95,7 +97,7 @@
         </div>
       </section>
 
-      <section class="page__info info">
+      <section class="page__info info" id="desc">
         <div class="container">
           <div class="info__wrapper">
             <img src="images/info.jpg" alt="A woman on a bike" />
@@ -163,7 +165,7 @@
           </div>
         </div>
       </section>
-      <section class="page__about about">
+      <section class="page__about about" id="characteristics">
         <div class="container">
           <h3 class="about__title info-title">characteristics</h3>
           <div class="about__wrapper">
@@ -275,7 +277,7 @@
         </div>
       </div>
 
-      <section class="page__order order">
+      <section class="page__order order" id="order">
         <div class="container">
           <div class="order__wrapper">
             <h3 class="oredr__title info-title">order</h3>
@@ -302,7 +304,7 @@
                   <input class="form__radio" name="radio" type="radio" />
                   <div class="form__bike">
                     <img src="images/grey-bike.jpg" alt="A bike photo" />
-                    <p class="form__bike-price">33 999 hrn</p>
+                    <p class="form__bike-price">33 777 hrn.</p>
                   </div>
                   <div class="form__radio-style form__radio-style-grey"></div>
                 </label>
@@ -315,7 +317,7 @@
                   />
                   <div class="form__bike">
                     <img src="images/white-bike.jpg" alt="A bike photo" />
-                    <p class="form__bike-price">32 999 hrn</p>
+                    <p class="form__bike-price">32 999 hrn.</p>
                   </div>
                   <div class="form__radio-style form__radio-style-white"></div>
                 </label>
@@ -323,7 +325,7 @@
                   <input class="form__radio" name="radio" type="radio" />
                   <div class="form__bike">
                     <img src="images/red-bike.jpg" alt="A bike photo" />
-                    <p class="form__bike-price">35 999 hrn</p>
+                    <p class="form__bike-price">35 888 hrn.</p>
                   </div>
                   <div class="form__radio-style form__radio-style-red"></div>
                 </label>
@@ -334,7 +336,41 @@
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a class="footer__policy-link" href="#">Privacy Policy</a>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#"
+              ><img
+                class="footer__social-inst"
+                src="images/instagram.svg"
+                alt="Instagram logo" /></a
+            ><a class="footer__social-link" href="#"
+              ><img src="images/facebook.svg" alt="Facebook logo"
+            /></a>
+          </div>
+          <div class="footer__contacts">
+            <a class="footer__link-phone" href="tel:+38050677 7777">
+              <img
+                class="footer__contacts-img"
+                src="images/call.svg"
+                alt="Phone receiver logo"
+              />
+              <span class="footer__span">+38 050 677 77 77</span>
+            </a>
+            <a class="footer__link-email" href="mailto:">
+              <img
+                class="footer__contacts-img"
+                src="images/mail.svg"
+                alt="Mail logo"
+              />
+              <span class="footer__span">elektrobikeukr@gmail.com</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/script.js"></script>
