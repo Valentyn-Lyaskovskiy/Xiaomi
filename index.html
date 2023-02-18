@@ -299,7 +299,7 @@
               <p class="form__text-second">choose the color you want</p>
               <div class="form__label-box">
                 <label class="form__label">
-                  <input class="form__radio" type="radio" />
+                  <input class="form__radio" name="radio" type="radio" />
                   <div class="form__bike">
                     <img src="images/grey-bike.jpg" alt="A bike photo" />
                     <p class="form__bike-price">33 999 hrn</p>
@@ -307,7 +307,12 @@
                   <div class="form__radio-style form__radio-style-grey"></div>
                 </label>
                 <label class="form__label">
-                  <input class="form__radio" type="radio" />
+                  <input
+                    class="form__radio"
+                    name="radio"
+                    type="radio"
+                    checked
+                  />
                   <div class="form__bike">
                     <img src="images/white-bike.jpg" alt="A bike photo" />
                     <p class="form__bike-price">32 999 hrn</p>
@@ -315,7 +320,7 @@
                   <div class="form__radio-style form__radio-style-white"></div>
                 </label>
                 <label class="form__label">
-                  <input class="form__radio" type="radio" />
+                  <input class="form__radio" name="radio" type="radio" />
                   <div class="form__bike">
                     <img src="images/red-bike.jpg" alt="A bike photo" />
                     <p class="form__bike-price">35 999 hrn</p>
@@ -325,6 +330,7 @@
               </div>
               <button class="form__btn main-link">order</button>
             </form>
+          </div>
         </div>
       </section>
     </main>

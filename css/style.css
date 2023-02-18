@@ -300,6 +300,10 @@ body {
   margin-bottom: 100px;
 }
 
+.order__wrapper {
+  position: relative;
+}
+
 .form {
   max-width: 420px;
 }
@@ -334,19 +338,52 @@ body {
 }
 
 .form__label-box {
+  display: flex;
+  margin-bottom: 50px;
 }
 
-.form__label {
+.form__label + .form__label {
+  margin-left: 23px;
+}
+
+.form__radio:checked + .form__bike {
+  display: block;
 }
 
 .form__radio {
+  position: absolute;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
 }
 
 .form__bike {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: none;
 }
 
 .form__bike-price {
 }
 
 .form__radio-style {
+  width: 80px;
+  height: 12px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.form__radio-style-grey {
+  background: #6f6f6f;
+}
+
+.form__radio-style-white {
+  background: #fff;
+  border: 1px solid #6f6f6f;
+}
+
+.form__radio-style-red {
+  background: #ff4040;
 }
