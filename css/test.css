@@ -61,7 +61,7 @@ margin-bottom: 50px;
     margin-top: 25px;
   }
 .info {
-  padding: 50px 0;
+  padding: 100px 0;
 }
 }
 
@@ -116,4 +116,9 @@ margin-bottom: 50px;
 margin-right: 0;
   width: 100%;
 }
+}
+@media (max-width: 375px) {
+  .info__text {
+    line-height: 140%;
+  }
 }
