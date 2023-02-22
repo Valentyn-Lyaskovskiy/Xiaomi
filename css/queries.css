@@ -160,6 +160,9 @@
     margin-right: 0;
     width: 100%;
   }
+.slider {
+  padding-left: 20px;
+}
 }
 
 @media (max-width: 375px) {
