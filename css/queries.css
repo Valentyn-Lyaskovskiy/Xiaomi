@@ -239,6 +239,30 @@
   .slider {
     padding-left: 20px;
   }
+
+  .footer__wrapper{
+    display: block;
+    text-align: center;
+  }
+
+  .footer__policy-link{
+    margin-bottom: 32px;
+    display: block;
+    padding-top: 12px;
+  }
+
+  .footer__contacts{
+    margin: 32px 0;
+    align-items:center;
+  }
+
+  .footer__social-inst {
+    margin-right: 56px;
+  }
+
+  .footer__link-email{
+    padding-bottom: 12px;
+  }
 }
 
 @media (max-width: 460px) {
