@@ -152,11 +152,11 @@
   }
 
   .form__bike img {
-    width: 320px;
+    width: 340px;
   }
 
   .main-link {
-    max-width: max-content;
+    max-width: 100%;
   }
 }
 
@@ -307,30 +307,29 @@
   }
 }
 
-
 @media (max-width: 460px) {
   .form__text-first {
     width: 90%;
   }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 425px) {
   .form__bike {
-    right: 10%;
+    right: 6%;
   }
 }
 
 @media (max-width: 375px) {
+  .form__bike img {
+    width: 310px;
+  }
+
   .form__bike {
-    right: 5%;
+    right: 1%;
   }
 
   .info__text {
     line-height: 140%;
-  }
-
-  .form__bike img {
-    width: 280px;
   }
 
   .form__text-first:not(:last-child) {
@@ -339,7 +338,7 @@
 }
 
 @media (max-width: 320px) {
-  .form__bike {
-    right: 2%;
+  .form__bike img {
+    width: 295px;
   }
 }
