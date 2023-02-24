@@ -12,10 +12,6 @@
   .about__wrapper {
     flex-wrap: wrap;
   }
-
-  /* .slider__img {
-    width: 90%;
-  } */
 }
 
 @media (max-width: 1080px) {
@@ -280,6 +276,6 @@
   }
 
   .form__bike {
-    left: 2%;
+    right: 2%;
   }
 }
