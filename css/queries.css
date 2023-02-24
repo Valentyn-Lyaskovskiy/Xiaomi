@@ -311,21 +311,25 @@
   .form__text-first {
     width: 90%;
   }
+
+  .form__bike img {
+    width: 320px;
+  }
 }
 
 @media (max-width: 425px) {
   .form__bike {
-    right: 6%;
+    right: 5%;
   }
 }
 
 @media (max-width: 375px) {
   .form__bike img {
-    width: 310px;
+    width: 295px;
   }
 
   .form__bike {
-    right: 1%;
+    right: 3%;
   }
 
   .info__text {
@@ -339,6 +343,6 @@
 
 @media (max-width: 320px) {
   .form__bike img {
-    width: 295px;
+    width: 290px;
   }
 }
