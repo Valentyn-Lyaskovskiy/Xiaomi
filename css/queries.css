@@ -93,12 +93,8 @@
     border: none;
   }
 
-  .form__radio-style {
-    margin-bottom: 200px;
-  }
-
   .form__label-box {
-    margin-bottom: 70px;
+    margin-bottom: 280px;
   }
 
   .form,
@@ -120,7 +116,7 @@
     top: auto;
     bottom: 90px;
     left: auto;
-    right: 33%;
+    right: 31%;
   }
 
   .order__form {
@@ -132,12 +128,6 @@
 
   .main-link {
     max-width: 100%;
-  }
-}
-
-@media (max-width: 1016px) {
-  .form__bike {
-    right: 31%;
   }
 }
 
@@ -319,7 +309,7 @@
 
 @media (max-width: 425px) {
   .form__bike {
-    right: 5%;
+    right: 8%;
   }
 }
 
@@ -329,7 +319,7 @@
   }
 
   .form__bike {
-    right: 3%;
+    right: 5%;
   }
 
   .info__text {
@@ -344,5 +334,9 @@
 @media (max-width: 320px) {
   .form__bike img {
     width: 290px;
+  }
+
+  .form__bike {
+    right: 2%;
   }
 }
