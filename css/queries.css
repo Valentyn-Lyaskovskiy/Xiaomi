@@ -115,8 +115,8 @@
   .form__bike {
     top: auto;
     bottom: 90px;
-    left: auto;
-    right: 31%;
+    left: 0;
+    right: 0;
   }
 
   .order__form {
@@ -150,12 +150,6 @@
   }
 }
 
-@media (max-width: 870px) {
-  .form__bike {
-    right: 30%;
-  }
-}
-
 @media (max-width: 830px) {
   .main__right {
     max-width: 90%;
@@ -179,16 +173,6 @@
 
   .form__bike-price {
     left: 48%;
-  }
-
-  .form__bike {
-    right: 29%;
-  }
-}
-
-@media (max-width: 790px) {
-  .form__bike {
-    right: 28%;
   }
 }
 
@@ -230,36 +214,6 @@
   }
 }
 
-@media (max-width: 747px) {
-  .form__bike {
-    right: 27%;
-  }
-}
-
-@media (max-width: 700px) {
-  .form__bike {
-    right: 26%;
-  }
-}
-
-@media (max-width: 664px) {
-  .form__bike {
-    right: 25%;
-  }
-}
-
-@media (max-width: 644px) {
-  .form__bike {
-    right: 23%;
-  }
-}
-
-@media (max-width: 600px) {
-  .form__bike {
-    right: 20%;
-  }
-}
-
 @media (max-width: 560px) {
   .menu__list {
     flex-direction: column;
@@ -285,16 +239,6 @@
   .slider {
     padding-left: 20px;
   }
-
-  .form__bike {
-    right: 18%;
-  }
-}
-
-@media (max-width: 470px) {
-  .form__bike {
-    right: 15%;
-  }
 }
 
 @media (max-width: 460px) {
@@ -308,18 +252,18 @@
 }
 
 @media (max-width: 425px) {
-  .form__bike {
-    right: 8%;
+  .form__label-box {
+    margin-bottom: 260px;
   }
 }
 
 @media (max-width: 375px) {
+  .form__label-box {
+    margin-bottom: 250px;
+  }
+  
   .form__bike img {
     width: 295px;
-  }
-
-  .form__bike {
-    right: 5%;
   }
 
   .info__text {
@@ -334,9 +278,5 @@
 @media (max-width: 320px) {
   .form__bike img {
     width: 290px;
-  }
-
-  .form__bike {
-    right: 2%;
   }
 }

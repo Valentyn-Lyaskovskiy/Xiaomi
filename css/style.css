@@ -358,7 +358,8 @@ body {
 }
 
 .form__radio:checked + .form__bike {
-  display: block;
+  display: flex;
+  justify-content: center;
 }
 
 .form__radio {
